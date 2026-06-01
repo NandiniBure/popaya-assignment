@@ -107,14 +107,14 @@ cd notes-app
 ### 2. Setup Backend
 
 ```bash
-cd backend
+cd backend/notes-api
 npm install
 ```
 
 ### 3. Start Backend Server
 
 ```bash
-node server.js
+npm run dev
 ```
 
 Server will run on:
@@ -129,7 +129,14 @@ http://localhost:5000
 
 npm install
 
+```bash
+cd frontend/notes-frontend
+npm install
+```
+
+```bash
 npm run dev
+```
 
 ```
 http://localhost:5173
