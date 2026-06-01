@@ -38,19 +38,58 @@ It allows users to create, read, update, and delete notes with a clean REST API 
 
 ```
 
-project-root/
+PROJECT ROOT
 │
 ├── backend/
-│   ├── routes/
-│   ├── utils/
-│   ├── data/notes.json
-│   └── server.js
+│   └── notes-api/
+│       ├── controller/
+│       │   └── (controller files)
+│       │
+│       ├── data/
+│       │   └── (database/json files)
+│       │
+│       ├── node_modules/
+│       │
+│       ├── routes/
+│       │   └── (route files)
+│       │
+│       ├── utils/
+│       │   └── (utility/helper files)
+│       │
+│       ├── Notes Assignment (1).pdf
+│       ├── package.json
+│       ├── package-lock.json
+│       └── server.js
+│
+├── core/
 │
 ├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── app.js
+│   └── notes-frontend/
+│       ├── .vite/
+│       ├── node_modules/
+│       ├── public/
+│       │
+│       ├── src/
+│       │   ├── assets/
+│       │   │
+│       │   ├── components/
+│       │   │
+│       │   ├── services/
+│       │   │
+│       │   ├── App.css
+│       │   ├── App.jsx
+│       │   ├── index.css
+│       │   └── main.jsx
+│       │
+│       ├── .gitignore
+│       ├── eslint.config.js
+│       ├── index.html
+│       ├── package.json
+│       ├── package-lock.json
+│       ├── README.md
+│       └── vite.config.js
 │
+├── .gitignore
 └── README.md
 
 ````
