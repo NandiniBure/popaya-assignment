@@ -1,5 +1,5 @@
 ---
-```md
+
 # 📝 Notes App (Full Stack Assignment)
 
 A simple full-stack Notes application built using **Node.js, Express.js, and JSON file storage**.  
