@@ -88,13 +88,15 @@ http://localhost:5000
 
 ### 4. Run Frontend
 
-Simply open:
+npm install
+
+npm run dev
 
 ```
-frontend/index.html
+http://localhost:5173
 ```
 
-or use Live Server in VS Code.
+
 
 ---
 
