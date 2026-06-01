@@ -1,67 +1,188 @@
-# Trainee Developer Assignment
+---
 
-## Overview
+```md
+# 📝 Notes App (Full Stack Assignment)
 
-This assignment has 3 parts:
-
-1. Core Task (Mandatory)
-2. Notes Backend (Optional)
-3. Notes Frontend (Optional)
-
-You must complete the Core Task.
-You can choose Backend, Frontend, or both.
+A simple full-stack Notes application built using **Node.js, Express.js, and JSON file storage**.  
+It allows users to create, read, update, and delete notes with a clean REST API and responsive frontend.
 
 ---
 
-## 1. Core Task (Mandatory)
+## 🚀 Features
 
-Fix bugs in the provided code and make sure the project runs correctly.
-
----
-
-## 2. Backend Task (Optional)
-
-Build a Notes API with following endpoints:
-
-- POST /notes
-- GET /notes
-- GET /notes/:id
-- PUT /notes/:id
-- DELETE /notes/:id
+- Create a new note
+- View all notes
+- Update existing notes
+- Delete notes
+- Persistent storage using JSON file
+- RESTful API architecture
+- Responsive frontend UI
 
 ---
 
-## 3. Frontend Task (Optional)
+## 🛠️ Tech Stack
 
-Build a Notes UI:
+**Frontend:**
+- HTML
+- CSS (Tailwind CSS / Custom CSS)
+- JavaScript
 
-- Show list of notes
-- Create note
-- Edit note
-- Delete note
-
----
-
-## Rules
-
-- You can use Google / ChatGPT
-- Do not copy full project from internet
-- Keep code simple and readable
+**Backend:**
+- Node.js
+- Express.js
+- UUID for unique IDs
+- File System (JSON storage)
 
 ---
 
-## Submission
+## 📁 Project Structure
 
-- Push code to GitHub
-- Share repository link
+```
+
+project-root/
+│
+├── backend/
+│   ├── routes/
+│   ├── utils/
+│   ├── data/notes.json
+│   └── server.js
+│
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   └── app.js
+│
+└── README.md
+
+````
 
 ---
 
-## Evaluation Criteria
+## ⚙️ Installation & Setup
 
-We evaluate:
-- Problem solving
-- Code quality
-- Understanding of basics
-- Effort and learning ability
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/notes-app.git
+cd notes-app
+````
+
+### 2. Setup Backend
+
+```bash
+cd backend
+npm install
+```
+
+### 3. Start Backend Server
+
+```bash
+node server.js
+```
+
+Server will run on:
+
+```
+http://localhost:5000
+```
+
+---
+
+### 4. Run Frontend
+
+Simply open:
+
+```
+frontend/index.html
+```
+
+or use Live Server in VS Code.
+
+---
+
+## 📡 API Endpoints
+
+### Create Note
+
+```
+POST /api/notes
+```
+
+### Get All Notes
+
+```
+GET /api/notes
+```
+
+### Update Note
+
+```
+PUT /api/notes/:id
+```
+
+### Delete Note
+
+```
+DELETE /api/notes/:id
+```
+
+---
+
+## 📦 Sample Request Body
+
+```json
+{
+  "title": "My First Note",
+  "content": "This is a sample note content"
+}
+```
+
+---
+
+## 🧪 Testing API (Postman)
+
+You can test all APIs using Postman:
+
+* Base URL: `http://localhost:5000/api/notes`
+* Use JSON body for POST & PUT requests
+* Set header:
+
+
+---
+
+## 📸 Screenshots
+
+> Add your screenshots here
+
+
+
+---
+
+## 🐛 Known Issues / Bugs Fixed
+
+* Fixed JSON parsing error (`Unexpected end of JSON input`)
+* Fixed missing validation for empty title
+* Fixed file read/write race condition
+
+---
+
+## 👨‍💻 Author
+
+**Nandini Bure**
+
+* GitHub: [your-github](https://github.com/your-username)
+* LinkedIn: [your-linkedin]
+
+---
+
+## 📜 License
+
+This project is for educational purposes only.
+
+---
+
+## ⭐ If you like this project
+
+Give it a star ⭐ on GitHub!
+
+```
 
