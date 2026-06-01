@@ -147,19 +147,3 @@ You can test all APIs using Postman:
 
 
 ---
-
-## 📸 Screenshots
-
-> Add your screenshots here
-
-
-
----
-
-## 🐛 Known Issues / Bugs Fixed
-
-* Fixed JSON parsing error (`Unexpected end of JSON input`)
-* Fixed missing validation for empty title
-* Fixed file read/write race condition
-
----
