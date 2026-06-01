@@ -163,21 +163,3 @@ You can test all APIs using Postman:
 * Fixed file read/write race condition
 
 ---
-
-## 👨‍💻 Author
-
-**Nandini Bure**
-
-* GitHub: [your-github](https://github.com/your-username)
-* LinkedIn: [your-linkedin]
-
----
-
-## 📜 License
-
-This project is for educational purposes only.
-
----
-
-
-
