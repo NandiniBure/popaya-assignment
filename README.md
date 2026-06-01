@@ -1,5 +1,4 @@
 ---
-
 ```md
 # 📝 Notes App (Full Stack Assignment)
 
@@ -180,9 +179,5 @@ This project is for educational purposes only.
 
 ---
 
-## ⭐ If you like this project
 
-Give it a star ⭐ on GitHub!
-
-```
 
