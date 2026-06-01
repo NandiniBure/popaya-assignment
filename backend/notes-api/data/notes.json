@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "title": "React Interview Preparation",
+    "content": "Revise Hooks, Context API, Redux Toolkit, React Query, and component lifecycle concepts.",
+    "createdAt": "2026-06-01T09:00:00.000Z",
+    "updatedAt": "2026-06-01T09:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "title": "Node.js Backend Tasks",
+    "content": "Complete Notes Management System backend with CRUD APIs, validation, and search functionality.",
+    "createdAt": "2026-06-01T10:15:00.000Z",
+    "updatedAt": "2026-06-01T10:45:00.000Z"
+  },
+  {
+    "id": "3",
+    "title": "Shopping List",
+    "content": "Milk, Bread, Eggs, Coffee, Fruits, Protein Bars.",
+    "createdAt": "2026-06-01T11:00:00.000Z",
+    "updatedAt": "2026-06-01T11:00:00.000Z"
+  },
+  {
+    "id": "5",
+    "title": "Daily Goals",
+    "content": "Solve 3 DSA questions, work on backend project, apply for 5 jobs, and exercise.",
+    "createdAt": "2026-06-01T07:00:00.000Z",
+    "updatedAt": "2026-06-01T08:30:00.000Z"
+  },
+  {
+    "id": "6",
+    "title": "Meeting Notes",
+    "content": "Discussed frontend architecture, API integration strategy, and deployment plan.",
+    "createdAt": "2026-06-01T14:00:00.000Z",
+    "updatedAt": "2026-06-01T14:20:00.000Z"
+  },
+  {
+    "id": "7",
+    "title": "Long Content Demo",
+    "content": "This is a note with a lot of content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vehicula, urna nec posuere posuere, tortor orci egestas odio, nec efficitur ex sem nec nulla. Suspendisse ac imperdiet turpis, in molestie lacus. Aenean nec erat at odio scelerisque tincidunt. Mauris posuere lectus a nisl viverra, nec pharetra erat dictum. Praesent bibendum efficitur dui, sed scelerisque mi blandit eget. Vivamus consequat posuere neque, quis feugiat enim vestibulum nec. Duis eget posuere nisl, et cursus tortor. Sed dictum accumsan urna non tincidunt. Vivamus quis risus tortor. Fusce scelerisque tempor odio. Morbi feugiat dictum mauris ac imperdiet. Duis cursus dictum orci, eget cursus libero varius a. Etiam pretium massa vitae dui laoreet, at dictum risus varius. Pellentesque semper augue quis erat accumsan, nec pulvinar tellus tincidunt. Nunc nec augue aliquam, pellentesque sem id, faucibus erat. Cras nec dictum risus, a vulputate orci. Nullam scelerisque ex et ultricies malesuada. In dictum nisl erat, posuere egestas sem facilisis vitae. Nullam sit amet feugiat risus. Pellentesque feugiat, nibh vitae pretium tincidunt, ex leo blandit quam, nec tempor sem magna et dui. Duis nec feugiat erat, nec egestas nibh. Integer in magna eros. Nam eu lacus sollicitudin, laoreet ex nec, facilisis purus. Vestibulum euismod euismod sodales. Proin viverra in nisi sed dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nulla risus, feugiat in sapien id, placerat elementum purus. Morbi neque ex, dictum nec turpis sed, dictum convallis urna. Morbi vel facilisis erat. Vivamus dignissim, velit id fermentum tristique, enim metus bibendum risus, ac dignissim mauris felis eu felis.",
+    "createdAt": "2026-06-01T15:30:00.000Z",
+    "updatedAt": "2026-06-01T15:30:00.000Z"
+  }
+]
